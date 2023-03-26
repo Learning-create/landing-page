@@ -1,0 +1,55 @@
+body {
+    display:flex;
+    flex-direction: column;
+    border: solid black;
+}
+
+div {
+    border: solid aqua;
+    min-height: 10px;
+}
+
+.logo-links {
+    display:flex;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    border: solid red;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tools{
+    max-height: 300px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    border: dotted indianred;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.sign-up {
+    display:flex;
+}
+
+footer {
+
+}
+
+.header,
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
