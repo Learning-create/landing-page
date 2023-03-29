@@ -12,6 +12,12 @@ a {
     text-decoration: none;
 }
 
+img {
+    border-radius: 10px;
+    border: solid 4px #3882f6;
+    height: 200px;
+}
+
 .logo-links {
     display:flex;
     justify-content: space-between;
@@ -29,7 +35,7 @@ a {
     list-style-type: none;
     display: flex;
     padding: 0.5%;
-    gap: 10px;
+    gap: 20px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -40,6 +46,8 @@ a {
     align-items: center;
     gap: 30px;
     padding-bottom: 30px;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .main {
@@ -57,6 +65,8 @@ a {
 
 .tools{
     max-width: 25vw;
+    height: auto;
+    border-radius: 0px;
 }
 
 button {
@@ -71,14 +81,28 @@ button {
 .random-info {
     display: flex;
     flex-direction: column;
-    border: dotted indianred;
+}
+
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .container {
-    border: solid indigo;
     display: flex;
     flex-wrap: wrap;
     gap: 10%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    width: 200px;
+    margin-bottom: 30px;
 }
 
 .quote{
